@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical" 
+    android:background="@drawable/list_item_bg"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="4dp"
+        android:maxHeight="40dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/app_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/app_icon"
+        android:ellipsize="end"
+        android:maxWidth="150sp"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:text="AppLable ffffffffffffffffffffffffffffffffffffffffff:"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/app_size_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_label"
+        android:layout_alignLeft="@id/app_label"
+        android:ellipsize="end"
+        android:maxWidth="150sp"
+        android:singleLine="true"
+        android:text="应用大小ddddddddddd"
+        android:textColor="@color/common_grey_disabled" >
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="false"
+        android:paddingRight="10dp" 
+        android:button="@drawable/checkbox"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_operator"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/check_box"
+        android:background="@drawable/image_button_bg"
+        android:src="@drawable/ic_cancel" />
+    
+    <ImageButton
+        android:id="@+id/btn_start"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/btn_operator"
+        android:background="@drawable/image_button_bg"
+        android:src="@drawable/ic_start" />
+
+</RelativeLayout>

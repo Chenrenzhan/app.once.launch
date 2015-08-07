@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用一键启动</string>
+    
+    <!-- 排序依据 -->
+    <string name="str_order_by_name"> 按名称排序</string>
+    <string name="str_order_by_size"> 按大小排序</string>
+    <string name="str_order_by_time"> 按日期排序</string>
+    <string name="str_order_by_frequency"> 按频率排序</string>
+    
+    <string name="str_app_title">应用一键启动</string>
+    
+    <string name="str_choose_app">选择应用()</string>
+    <string name="str_chosen_app">已选择应用()</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<drawable >定义图片颜色-->
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="common_white">#ffffff</color>
+    <color name="common_white_shadow">#414141</color>
+    <color name="common_white_disabled">#e7e7e7</color>
+    <!-- For main texts -->
+    <color name="common_dark">#3d5562</color>
+    <color name="common_dark_shadow">#dedede</color>
+    <color name="common_dark_disabled">#9aa7af</color>
+    <!-- For secondary texts -->
+    <color name="common_grey">#8496a0</color>
+    <color name="common_grey_disabled">#aabbc4</color>
+    <!-- For danger cases, such as virus, file delete... -->
+    <color name="common_red">#e62f2f</color>
+    <!-- For warning cases, such as trashes... -->
+    <color name="common_yellow">#f1930d</color>
+    <!-- For safe cases -->
+    <color name="common_green">#60990c</color>
+    <!-- For suggestions -->
+    <color name="common_blue">#4b8bbd</color>
+    <color name="tab_indicator_text_selected">#000000</color>
+    <color name="tab_indicator_text_unselected">#5b666c</color>
+    
+    <color name="page_viewer_margin_color">#b9d1ea</color> <!-- 两个滑动页面间距的颜色 -->
+    
+    <color name="tab_indicator_line">#3ec0ef</color>
+    
+    <!--<drawable >定义图片颜色-->
+    <drawable name="listview_bg">#fff4f7f9</drawable> <!-- 注意了，是<drawablw>而不是<color>,drawable#有8为，而color自有6为 -->
+    <drawable name="listview_cache_hint">#00000000</drawable>
+    <color name="listview_divider">#dddbdb</color>
+    
+    <drawable name="item_point_bg">#FEEFB9</drawable>
+    
+    <color name="common_listview_cache_hint">#00ffff</color> <!-- 在style.xml中定义的ListView样式 -->
+    
+    <drawable name="button_point_bg">#d7f4f4</drawable>
+
+</resources>
